@@ -1,0 +1,4 @@
+build/
+data/*.bin
+__pycache__/
+report/report.html

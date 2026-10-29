@@ -1,0 +1,4 @@
+part,method,n,bs_or_density,event,limit
+dense,naive,2048,0,timeout (single multiplication not finished),20 s
+dense,ikj,3072,0,timeout (single multiplication not finished),20 s
+sparse,ikj,4000,0.01,timeout (single multiplication not finished),20 s

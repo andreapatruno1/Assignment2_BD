@@ -1,0 +1,16 @@
+@page { size: A4; margin: 1.8cm 2cm; }
+body { font-family: "DejaVu Serif", Georgia, serif; font-size: 10.5pt; line-height: 1.35; color: #111; }
+h1 { font-size: 17pt; margin: 0 0 4pt 0; }
+h2 { font-size: 13pt; margin: 16pt 0 6pt 0; page-break-after: avoid; }
+h3 { font-size: 11.5pt; margin: 12pt 0 4pt 0; page-break-after: avoid; }
+p.meta { color: #444; margin: 0 0 14pt 0; }
+table { border-collapse: collapse; margin: 6pt auto 10pt auto; font-size: 9.5pt; page-break-inside: avoid; }
+th, td { border: 1px solid #999; padding: 2pt 5pt; text-align: right; }
+
+th { background: #eee; }
+td:first-child, th:first-child { text-align: left; }
+figure { margin: 8pt 0; text-align: center; page-break-inside: avoid; }
+figure img { width: 62%; }
+figcaption { font-size: 9.5pt; color: #333; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 9.5pt; }
+pre { font-size: 8.5pt; background: #f4f4f4; padding: 6pt; white-space: pre-wrap; }
